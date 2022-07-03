@@ -1,0 +1,77 @@
+#team{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.member #head{
+    font-size: larger;
+}
+#team h1{
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: none ;
+}
+.member{
+    font-size: 20px;
+    border: 2px solid rgb(56, 136, 3);
+    padding: 12px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.member span{
+    display: block;
+    margin-left: 13px;
+    font-weight: bolder;
+    text-transform: none;
+}
+.key{
+    margin-left: 15px;
+}
+.member .roles ul li{
+    margin-left: 50px;
+    text-transform: none;
+}
+
+/* .member .roles ul:first-child{
+    margin-top: 10px;
+} */
+.member .summary{
+    font-size: smaller;
+    margin: 10px;
+}
+p{
+    text-transform: none;
+}
+.member .roles{
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+.fa-star{
+    margin-right: 5px;
+    color: rgb(255, 174, 0);
+}
+
+/* .roles #img{
+    position: flex;
+    top: 0.5em;
+    left: 15em;
+    height: 300px;
+    width: 10px;
+} */
+
+img{
+    float: right;
+    height: 200px;
+    width: 382px;
+    margin-left: 2px;
+}
+.firstimg{
+    height: 200px;
+    width: 330px;
+    margin-left: 70px;
+    margin-right: 50px;
+}
