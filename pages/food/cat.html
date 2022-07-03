@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
+    <title>BestMate Paradise</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+    
+    <style>
+        #cats{
+            margin-left: -160px;
+            margin-bottom: 50px;
+        }
+        h1{
+            text-indent: 10em;
+            font-size:30px;
+            margin-bottom: 50px;
+        }
+        h1{
+            text-indent: 10em;
+            font-size:30px;
+        }
+        .individual{
+            text-indent: 15em;
+            font-size: 25px;
+        }
+        .individual>img{
+            position: relative;
+            top: 0.5em;
+            left: 15em;
+            height: 400px;
+            width: 400px;
+            display: inline-block;
+        }
+
+        .individual>p{
+            text-indent: 1em;
+            position: relative;
+            top: -3em;
+            left: 30em;
+            line-height: 1.5em;
+            display: inline-block;
+            font-size: 15px;
+            width: 40em;
+            height: 20em;
+            padding: 1.5em;
+            border: 2px;
+            border-radius: 5em;
+            border-style: solid;
+        }
+
+        .individual>.special1{
+            text-indent: 1em;
+            position: relative;
+            top: -10em;
+            left: 30em;
+            line-height: 1.5em;
+            display: inline-block;
+            font-size: 15px;
+            width: 40em;
+            height: 20em;
+        }
+        .individual>.special3{
+            text-indent: 1em;
+            position: relative;
+            top: -8em;
+            left: 30em;
+            line-height: 1.5em;
+            display: inline-block;
+            font-size: 15px;
+            width: 40em;
+            height: 20em;
+        }
+        div>.button1, .button2{
+            position: relative;
+            bottom: 5em;
+            left: 15em;
+            padding: 2px;
+            border: 2px;
+            border-style: solid;
+            border-color: cadetblue;
+            cursor: pointer;
+        }
+        #booknow{
+            position: relative;
+            bottom: 5em;
+            left: 85em;
+            cursor: pointer;
+            right:20px;
+        }
+    </style>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="../../index.html" class="logo"> <i class="fas fa-paw"></i> BestMate Paradise </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="../feedback.html" class="fas fa-heart" title="Feedback" target="_blank"></a>
+            <a href="../dashboard.html" class="fas fa-shopping-cart" title="Your Dashboard"></a>
+            <a href="../user.html" title="Log in"><div id="login-btn" class="fas fa-user"></div></a>
+        </div>
+
+    </div>
+
+    <div class="header-3">
+        <nav class="navbar">
+            <ul>
+            <li class="active"><a href="../../index.html"><i class="fa fa-home"></i>home</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="../aboutus/team.html">Our Team</a></li>
+                        <li><a href="../aboutus/motivation.html">Motivation</a></li>
+                        <li><a href="../aboutus/analysis.html">Analysis & Design</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-clone"></i>Our Services</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li class="hover-me"><a href="#"><i class="fa fa-angle-right"></i>Pet Suites</a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="../services/dogsuites.html">Dogs</a></li>
+                                    <li><a href="../services/catsuites.html">Cats</a></li>
+                                    <li><a href="../services/others.html">Others</a></li>
+                                </ul>
+                            </div>
+                        </li>  
+                        <li class="hover-me"><a href="#"><i class="fa fa-angle-right"></i>Pet Food</a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="dog.html">Dogs</a></li>
+                                    <li><a href="#">Cats</a></li>
+                                    <li><a href="other.html">Others</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="../services/activities.html">Special Activities</a></li>
+                        <li><a href="../services/insurance.html">Pet Insurance</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="../faq.html"><i class="fa fa-question"></i>FAQ</a></li>
+            <li><a href="../contact.html"><i class="fa fa-phone"></i>Contact us</a></li>
+            <li><a href="../sitemap.html"><i class="fa fa-list"></i>Site map</a></li>
+            <li><a href="../privacypolicy.html"><i class="fa fa-lock"></i>Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+
+<!-- header section ends -->
+<br><br>
+<div id="cats">
+    <h1>Food Menu for Cats...</h1>
+    <div class="display">
+        <div class="individual">Main Course for the Day<br><img src="../../image/CatFood1.jpg" alt="CatFood">
+            <p class="special3" >As usual, we provide quality food from famous brand in different flavour for your kitten.<br><br>
+                You can specify the ingredient your cat prefer in the special request column.<br><br>
+                Bringing your own food is also optional, the cost will be deducted from your fee.<br><br>
+                </p>
+                <button class="button1" title="more deatils to be relased soon..">Click Here for Details</button>
+        </div>
+        <div class="individual">Special treats for extra nutrition<br><img src="../../image/CatFood2.jpg" alt="CatFood"> 
+        <p class="special1">Our experienced chef will also cook fresh food for your kitten.<br><br>
+            Depending on the dish of the day, different food will be provided.<br><br>
+            All the food combination is well established based on nutriology.<br><br>
+        </p>
+        <button class="button2" title="more deatils to be relased soon..">Click Here for Details</button>
+        </div>
+        <br>
+        </div>
+    
+    </div>
+    <button id="booknow"><a href="../../pages/booking.html" class="btn">Book now</a></button>
+</div>
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="../index.html" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="../../index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="../../index.html#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="../../index.html#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="../../index.html#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="../../index.html#blogs"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="../dashboard.html"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="../dashboard.html"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="../privacypolicy.html"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="../services/dogsuites.html"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> ISYS2112@gmail.com </a>
+            <img src="../../image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>[ISYS2110] Remote Prac-04 Group 1</span> | all rights reserved@2022 </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="../scripts/script.js"></script>
+
+</body>
+</html>
